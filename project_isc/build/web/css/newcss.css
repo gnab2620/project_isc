@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 11, 2020, 3:12:41 PM
+    Author     : NTD
+*/
+.dropdown:hover>.dropdown-menu {
+    margin-top: 2.7rem;
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.fixtb {
+     width: 25rem;
+}
+
